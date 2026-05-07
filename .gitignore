@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv/
+
+# Local outputs and secrets
+wandb/
+finetuned_models/
+eval_results/
+generated_ldr/
+training_log/
+*.log
+*.lic
+.env
+
+# Materialized dataset files can be regenerated from datasets_*_parts/
+datasets_pc/*.jsonl
+datasets_pc_sft/*.jsonl
